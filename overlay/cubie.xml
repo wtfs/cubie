@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>                                                                                                     
+<repositories version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+		<name>sarnold</name>
+		<description>A portage overlay for gentoo, intended to simplify installation of xf86-video-sunxifb</description>
+		<homepage>https://github.com/ssvb/gentoo-overlay-mali-x11</homepage>
+		<owner>
+			<email></email>
+		</owner>
+		<source type="git">https://github.com/ssvb/gentoo-overlay-mali-x11.git</source>
+	</repo>
+</repositories>
