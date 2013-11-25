@@ -1,11 +1,14 @@
 <?xml version="1.0" ?>
-<layman>
-	<overlay
-		type="git"
-		src="git://github.com/ssvb/gentoo-overlay-mali-x11.git"
-		name="mali400x11"
-		>
-		<description>A portage overlay for gentoo, intended to simplify installation of xf86-video-sunxifb</description>
-		<link>https://github.com/ssvb/gentoo-overlay-mali-x11</link>
-	</overlay>
-</layman>
+<repositories xmlns="" version="1.0">
+	<repo quality="experimental" status="official">
+		<name><![CDATA[mali400x11]]></name>
+		<description lang="en"><![CDATA[A portage overlay for gentoo, intended to simplify installation of xf86-video-sunxifb]]></description>
+		<homepage>https://github.com/ssvb/gentoo-overlay-mali-x11</homepage>
+		<owner type="person">
+			<email></email>
+			<name><![CDATA[ssvb]]></name>
+		</owner>
+		<source type="git">git://github.com/ssvb/gentoo-overlay-mali-x11.git</source>
+		<feed>https://github.com/ssvb/gentoo-overlay-mali-x11/commits/master.atom</feed>
+	</repo>
+</repositories>
